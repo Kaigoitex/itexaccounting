@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ITEX San Antonio Referral Form</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+</head>
+<body class="bg-white text-gray-800 font-sans">
+  <div class="max-w-xl mx-auto p-8">
+    <h1 class="text-3xl font-bold text-blue-700 mb-6 text-center">Refer a Business to ITEX</h1>
+    <p class="mb-6 text-center text-gray-700">Know an accountant, bookkeeper, or business that could benefit from joining ITEX? Send us their info below!</p>
+
+    <form action="mailto:your-email@example.com" method="POST" enctype="text/plain" class="space-y-6">
+      <div>
+        <label class="block mb-1 font-semibold" for="referrerName">Your Name</label>
+        <input type="text" id="referrerName" name="referrerName" required class="w-full border border-gray-300 rounded px-3 py-2" />
+      </div>
+
+      <div>
+        <label class="block mb-1 font-semibold" for="referrerEmail">Your Email</label>
+        <input type="email" id="referrerEmail" name="referrerEmail" required class="w-full border border-gray-300 rounded px-3 py-2" />
+      </div>
+
+      <div>
+        <label class="block mb-1 font-semibold" for="businessName">Referred Business Name</label>
+        <input type="text" id="businessName" name="businessName" required class="w-full border border-gray-300 rounded px-3 py-2" />
+      </div>
+
+      <div>
+        <label class="block mb-1 font-semibold" for="contactName">Contact Person</label>
+        <input type="text" id="contactName" name="contactName" class="w-full border border-gray-300 rounded px-3 py-2" />
+      </div>
+
+      <div>
+        <label class="block mb-1 font-semibold" for="contactPhone">Contact Phone</label>
+        <input type="tel" id="contactPhone" name="contactPhone" class="w-full border border-gray-300 rounded px-3 py-2" />
+      </div>
+
+      <div>
+        <label class="block mb-1 font-semibold" for="contactEmail">Contact Email</label>
+        <input type="email" id="contactEmail" name="contactEmail" class="w-full border border-gray-300 rounded px-3 py-2" />
+      </div>
+
+      <div>
+        <label class="block mb-1 font-semibold" for="notes">Additional Notes</label>
+        <textarea id="notes" name="notes" rows="4" class="w-full border border-gray-300 rounded px-3 py-2"></textarea>
+      </div>
+
+      <button type="submit" class="w-full bg-blue-700 text-white font-semibold rounded py-3 hover:bg-blue-800 transition">
+        Submit Referral
+      </button>
+    </form>
+
+    <p class="mt-8 text-center text-sm text-gray-500">Thank you for helping us grow the ITEX network in San Antonio!</p>
+  </div>
+</body>
+</html>
