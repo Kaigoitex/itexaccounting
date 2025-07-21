@@ -17,11 +17,30 @@
 </div>
 
 
-    <!-- Hero Header -->
-    <header class="bg-blue-800 text-white rounded-xl p-8 text-center shadow-md mb-8">
-      <h1 class="text-4xl md:text-5xl font-bold mb-3">Grow Your Accounting Practice With Trade</h1>
-      <p class="text-lg md:text-xl text-blue-100">Join San Antonio’s trusted barter network. Get new clients. Spend less cash. Build more value.</p>
-    </header>
+   <!-- Dynamic Header -->
+<header class="relative rounded-xl mb-10 p-10 text-center overflow-hidden">
+  <div class="absolute inset-0 bg-gradient-to-r from-blue-700 via-blue-500 to-indigo-600 animate-gradient-x opacity-90 -z-10 rounded-xl"></div>
+  <h1 class="text-5xl md:text-6xl font-extrabold text-white drop-shadow-lg mb-4 leading-tight">
+    Grow Your Accounting Practice With Trade
+  </h1>
+  <p class="text-xl md:text-2xl text-blue-200 mb-6 max-w-xl mx-auto">
+    Join San Antonio’s trusted barter network. Get new clients. Keep your cash. Build more value.
+  </p>
+  <a href="https://calendly.com/itex_broker/demo" target="_blank" class="inline-block bg-white text-blue-700 font-semibold rounded-full px-8 py-3 shadow-lg hover:shadow-xl transition">
+    📅 Book a Free Demo
+  </a>
+</header>
+
+<style>
+  @keyframes gradient-x {
+    0%, 100% { background-position: 0% center; }
+    50% { background-position: 100% center; }
+  }
+  .animate-gradient-x {
+    background-size: 200% 200%;
+    animation: gradient-x 10s ease infinite;
+  }
+</style>
 
     <!-- 🎥 Video Section -->
     <section class="mb-10 text-center">
